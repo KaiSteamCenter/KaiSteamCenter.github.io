@@ -1,0 +1,31 @@
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    background-color: lightgray;
+  }
+  .navbar a:hover {
+      background-color: #ddd;
+    }
+
+  .navbar a {
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+}
+
+h1 {
+    font-size: 36px;
+}
+p {
+    font-size: 16px;
+}

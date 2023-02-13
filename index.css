@@ -36,6 +36,49 @@ body {
   background-color: #2D283E;
 }
 
+.hr-lines{
+  position: relative;
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 5px;
+  width: 150px;
+  background: #eebbc3;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -30%;
+  border-radius: 10px;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 5px;
+  width: 150px;
+  background: #eebbc3;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -30%;
+  border-radius: 10px;
+}
+
+
+
+#welcome {
+  text-align: center;
+}
+#photo{
+  float:left;
+}
+#Hook{
+  text-align: center;
+}
+
 h1 {
   font-size: 36px;
   color: #802BB1;

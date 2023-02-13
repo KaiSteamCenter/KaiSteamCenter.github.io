@@ -1,9 +1,8 @@
 
 .navbar {
   font-family: 'Nunito', sans-serif;
-  font-weight: bolder;
-  text-align: center; 
-  font-size:20px;
+  font-weight:900px;
+  font-size:21px;
   font-display:initial;
   align-items: center;
   background-color: #564f6f;
@@ -13,8 +12,7 @@
 }
 
 .navbar > a:hover {
-  background-color: red;
-  border-radius: 100px;
+  border-radius: 75px;
   align-items: center;
   transition: ease 750ms;
   color: #b8c1ec;
@@ -35,6 +33,41 @@ body {
   font-weight: bold;
   background-color: #2D283E;
 }
+
+
+.hr-lines{
+  position: relative;
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 5px;
+  width: 150px;
+  background: #eebbc3;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -30%;
+  border-radius: 10px;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 5px;
+  width: 150px;
+  background: #eebbc3;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -30%;
+  border-radius: 10px;
+}
+
+
+
 #welcome {
   text-align: center;
 }

@@ -16,7 +16,7 @@
   background-color: red;
   border-radius: 100px;
   align-items: center;
-  transition: ease 5000ms;
+  transition: ease 750ms;
   color: #b8c1ec;
 }
 
@@ -35,40 +35,6 @@ body {
   font-weight: bold;
   background-color: #2D283E;
 }
-
-.hr-lines{
-  position: relative;
-  max-width: 500px;
-  margin: 50px auto;
-  text-align: center;
-}
-
-.hr-lines:before{
-  content:" ";
-  height: 5px;
-  width: 150px;
-  background: #eebbc3;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: -30%;
-  border-radius: 10px;
-}
-
-.hr-lines:after{
-  content:" ";
-  height: 5px;
-  width: 150px;
-  background: #eebbc3;
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: -30%;
-  border-radius: 10px;
-}
-
-
-
 #welcome {
   text-align: center;
 }

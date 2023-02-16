@@ -96,7 +96,7 @@ body {
   text-align: center;
 }
 #photo{
-  animation: float 6s ease-in-out infinite;
+  animation: float 3s ease-in-out infinite;
   float:left;
 }
 #Hook{

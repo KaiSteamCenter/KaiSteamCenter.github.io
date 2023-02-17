@@ -201,7 +201,7 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  max-width: 600px;
+  width: 100%;
   margin: 0 auto;
 }
 

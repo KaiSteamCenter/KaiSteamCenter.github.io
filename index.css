@@ -117,13 +117,16 @@ img {
   border-radius: 75px;
 }
 
+
+
+/* Below is Contact Form */
 .form{
   width:340px;
   height:475px;
   background:#e6e6e6;
   border-radius:8px;
   box-shadow:0 0 40px -10px #000;
-  margin:calc(35vh - 220px) auto;
+  margin:calc(30vh - 220px) auto;
   padding:20px 30px;max-width:calc(100vw - 40px);
   box-sizing:border-box;font-family:'Montserrat',sans-serif;
   position:relative;
@@ -145,8 +148,9 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   position:relative;
   float:right;
   padding:5px 12px;
-  margin:8px 0 0;
-  font-family:'Montserrat',sans-serif;border:2px solid #78788c;
+  margin:20px 0 0;
+  font-family:'Montserrat',sans-serif;
+  border:2px solid #78788c;
   background:0;color:#5a5a6e;
   cursor:pointer;
   transition:all .3s
@@ -155,15 +159,18 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   background: #78787c;
   color: #fff;
 }
+/* Above is Contact Form */
 
 
+
+/* Below is Contact Links */
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 70px;
-  padding: 10px;
+  height: 45px;
+  padding: 1px;
 }
 
 .container a {
@@ -182,11 +189,55 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
 .linkedin {
   order: 1;
 }
-
+.email {
+  order: 2;
+}
 .github {
   order: 3;
 }
+/* Above is Contact links */
 
-.email {
-  order: 2;
+.servicescontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.service {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  background-color: #b8c1ec;
+  border: 1px solid #b8c1ec;
+  border-radius: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.5;
+  max-width: none;
+  height: 500px;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.service:nth-child(1) {
+  margin-left: -60%;
+}
+.service:nth-child(2) {
+  margin-right: -60%;
+}
+
+.service h2 {
+  font-size: 30px;
+  margin-bottom: auto;
+}
+
+.service p {
+  color: red;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: auto;
 }

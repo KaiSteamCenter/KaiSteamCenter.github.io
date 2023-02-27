@@ -9,6 +9,8 @@
   border-radius: 75px;
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
 }
 
 .navbar > a:hover {

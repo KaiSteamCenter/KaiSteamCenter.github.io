@@ -33,7 +33,8 @@
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
-  background-color: #2D283E;
+  background: rgb(25,0,36);
+  background: linear-gradient(90deg, rgba(25,0,36,1) 15%, rgba(25,0,36,1) 20%, rgba(45,40,62,1) 100%);
 }
 
 
@@ -253,4 +254,23 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   line-height: 1.5;
   text-align: center;
   margin-bottom: auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* CSS styles for mobile devices */
+  .navbar > a {
+  display: inline-block;
+  padding: 0px 10px 0 10px;
+  text-decoration: none;
+}
+  #welcome {
+    text-align: center;
+  }
+  .hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+  }
+    
 }

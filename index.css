@@ -181,7 +181,6 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 32px;
   font-weight: bold;
 }
 
@@ -189,21 +188,11 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   color: blue;
 }
 
-.linkedin {
+.linkedin, .email, .github {
   color:#eebbc3;
   font-size:32px;
-  order: 1;
 }
-.email {
-  color:#eebbc3;
-  font-size:32px;
-  order: 2;
-}
-.github {
-  color:#eebbc3;
-  font-size:32px;
-  order: 3;
-}
+
 /* Above is Contact links */
 
 .servicescontainer {

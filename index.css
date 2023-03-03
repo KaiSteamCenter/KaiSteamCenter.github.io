@@ -1,4 +1,5 @@
 
+
 .navbar {
   font-family: 'Nunito', sans-serif;
   font-weight:900px;
@@ -9,7 +10,7 @@
   border-radius: 75px;
   display: flex;
   justify-content: center;
-  position: sticky;
+  position: static;
   top: 0;
 }
 
@@ -180,8 +181,7 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: black;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -190,12 +190,18 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
 }
 
 .linkedin {
+  color:#eebbc3;
+  font-size:32px;
   order: 1;
 }
 .email {
+  color:#eebbc3;
+  font-size:32px;
   order: 2;
 }
 .github {
+  color:#eebbc3;
+  font-size:32px;
   order: 3;
 }
 /* Above is Contact links */
@@ -293,4 +299,17 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
     height: unset;
     max-width:100%;  
   }
+  .email, .linkedin, .github {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+    /* CSS styles for long ass screens */
+  main {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 }

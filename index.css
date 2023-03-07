@@ -254,7 +254,17 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   font-size: 36px;
   color: #802BB1;
 }
+
+#osha {
+  float: right;
+  margin-left: 50px;
+}
+#workED {
+  float: left;
+}
+
 .cert {
+  border-radius: 10px;
   height: 30%; 
   width: 30%;
 }

@@ -248,19 +248,25 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
 }
 
 
-
+#aboutmetext {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 #certifications {
+  text-align: center;
   font-size: 36px;
   color: #802BB1;
 }
 
 #osha {
   float: right;
-  margin-left: 50px;
+  margin-right: auto;
 }
 #workED {
   float: left;
+  margin-right: auto;
 }
 
 .cert {
@@ -270,6 +276,9 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
 }
 
 @media screen and (max-width: 400px) {
+  #aboutmetext {
+    padding: 0;
+  }
   /* CSS styles for mobile devices */
   .navbar > a {
   padding: 0px 10px 0 10px;

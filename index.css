@@ -204,8 +204,8 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   flex: 1 1 auto;
   margin: 10px;
   padding: 20px;
-  background-color: #4C495D;
-  border: 1px solid #4C495D;
+  background-color: #5c596d;
+  border: 1px solid #5c596d;
   border-radius: 20px;
   box-sizing: border-box;
   text-align: center;
@@ -262,19 +262,23 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
 }
 
 #osha {
-  float: right;
-  margin-right: auto;
+  float: left;
 }
 #workED {
-  float: left;
-  margin-right: auto;
+  float: right;
 }
-
+#certiport {
+  height: 25%; 
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+}
 .cert {
   border-radius: 10px;
   height: 30%; 
   width: 30%;
 }
+
 
 @media screen and (max-width: 400px) {
   #aboutmetext {

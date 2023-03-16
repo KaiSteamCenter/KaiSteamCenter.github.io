@@ -261,24 +261,42 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   color: #802BB1;
 }
 
-#osha {
-  float: left;
-}
-#workED {
-  float: right;
-}
-#certiport {
-  height: 25%; 
-  width: 25%;
-  margin: 0 auto;
-  text-align: center;
-}
-.cert {
-  border-radius: 10px;
-  height: 30%; 
-  width: 30%;
+.aboutcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100%);
+  grid-gap: 10px;
+  width: 80%; /* added width property */
+  margin: 0 auto; /* added margin property to center the container */
 }
 
+#osha {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  max-height: 100%; 
+  max-width: 100%;
+}
+
+#workED {
+  grid-column: 3 / 4;
+  grid-row: 1;
+  max-height: 100%; 
+  max-width: 100%;
+}
+
+#certiport {
+  max-height: 70%; 
+  max-width: 70%;
+  grid-column: 2 / 3;
+  grid-row: 1;
+  text-align: center;
+}
+
+.cert {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
 
 @media screen and (max-width: 400px) {
   #aboutmetext {

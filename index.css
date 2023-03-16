@@ -262,41 +262,28 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
 }
 
 .aboutcontainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 100%);
-  grid-gap: 10px;
-  width: 80%; /* added width property */
-  margin: 0 auto; /* added margin property to center the container */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
-#osha {
-  grid-column: 1 / 2;
-  grid-row: 1;
-  max-height: 100%; 
-  max-width: 100%;
-}
-
-#workED {
-  grid-column: 3 / 4;
-  grid-row: 1;
-  max-height: 100%; 
-  max-width: 100%;
+#osha, #workED, #certiport {
+  width: 75%;
+  height: auto;
+  border-radius: 10px;
 }
 
 #certiport {
-  max-height: 70%; 
-  max-width: 70%;
-  grid-column: 2 / 3;
-  grid-row: 1;
-  text-align: center;
+  width: 100%;
 }
 
 .cert {
-  border-radius: 10px;
   display: block;
   margin: 0 auto;
 }
+
 
 @media screen and (max-width: 400px) {
   #aboutmetext {
@@ -341,6 +328,27 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
   .email, .linkedin, .github {
     font-size: 24px;
   }
+
+  .aboutcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    #osha, #workED, #certiport {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    }
+    
+    #certiport {
+    width: 100%;
+    }
+
+
+
 }
 
 @media screen and (min-width: 2560px) {

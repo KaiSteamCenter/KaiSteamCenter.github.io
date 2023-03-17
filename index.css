@@ -143,7 +143,8 @@ p {
 }
 .forminput:focus{border-bottom:2px solid #78788c
 }
-p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a
+label {
+  content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a
 }
 .formbutton{
   position:relative;
@@ -361,4 +362,17 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
     margin-right: auto;
   }
   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* CSS styles for long ass screens */
+main {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar > a {
+  padding: 25px 50px 25px 50px;
+  text-decoration: none;
+  }
 }

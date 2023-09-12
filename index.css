@@ -276,11 +276,22 @@ label {
   border-radius: 10px;
 }
 
+#todo, #bootstrap, #picplay {
+  width: 75%;
+  height: auto;
+  
+  border-radius: 10px;
+}
+
 #certiport {
   width: 100%;
 }
 
-
+#projects {
+  text-align: center;
+  font-size: 36px;
+  color: #802BB1;
+}
 
 .cert {
   display: block;
@@ -339,7 +350,7 @@ label {
     justify-content: center;
     }
     
-    #osha, #workED, #certiport {
+    #osha, #workED, #certiport, #todo, #bootstrap, #picplay {
     width: 100%;
     height: auto;
     border-radius: 10px;

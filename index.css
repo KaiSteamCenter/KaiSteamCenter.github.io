@@ -230,11 +230,16 @@ label {
 }
 
 .service:nth-child(3) {
-  max-width:50%;
+  max-width:49%;
   margin-right: auto;
-  margin-left: auto;
-
+  margin-left: 0;
 }
+.service:nth-child(4) {
+  max-width:49%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .service h2 {
   color: #b8c1ec;
   font-size: 30px;
@@ -266,22 +271,20 @@ label {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
   margin: 0 auto;
 }
 
 #osha, #workED, #certiport {
   width: 75%;
-  height: auto;
+  height: auto; /* Set a fixed height for all images */
   border-radius: 10px;
 }
 
 #todo, #bootstrap, #picplay {
   width: 75%;
-  height: auto;
+  height: auto; /* Set a fixed height for all images */
   border-radius: 10px;
 }
-
 #certiport {
   width: 100%;
 }
@@ -335,6 +338,10 @@ label {
   }
   
   .service:nth-child(3) {
+    height: unset;
+    max-width:100%;  
+  }
+  .service:nth-child(4) {
     height: unset;
     max-width:100%;  
   }
